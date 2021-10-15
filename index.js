@@ -78,7 +78,7 @@ const promptUser = () => {
 
   Copyright (c) Microsoft Corporation. All rights reserved.
 
-  Licensed under the [${license}](LICENSE.txt) license.
+  Licensed under the [${license}](LICENSE) license.
   
   ## Contributing
   ${contributing}
