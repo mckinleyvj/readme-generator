@@ -26,7 +26,7 @@ With the use of a command-line application, it will prompt the user a series of 
 
   Copyright (c) Microsoft Corporation. All rights reserved.
 
-  Licensed under the [MIT](LICENSE.txt) license.
+  Licensed under the [MIT](LICENSE) license.
   
   ## Contributing
   I am always looking for contributors of all skill levels! If you have something in mind to add to the project, try out by [creating an issue](https://github.com/mckinleyvj/readme-generator) and let's see where we can go from there.
@@ -42,5 +42,5 @@ With the use of a command-line application, it will prompt the user a series of 
   
   You can visit my [GitHub profile](https://github.com/mckinleyvj) and check my other repositories.
 
-  Or you can send me an [email](mckinleyvj@gmail.com) instead.
+  Or you can send me an [email](<mckinleyvj@gmail.com>) instead.
   
