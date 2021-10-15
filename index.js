@@ -20,7 +20,7 @@ const promptUser = () => {
           },
           {
             type: 'editor',
-            message: 'Provide a short description of your Project.',
+            message: 'Provide a short description of your Project :',
             name: 'description',
           },
           {
