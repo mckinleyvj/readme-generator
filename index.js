@@ -87,8 +87,10 @@ const promptUser = () => {
   ${tests}
   
   ## Questions
-  ${user_github}
-  ${user_email}
+  
+  You can visit my [GitHub profile](https://github.com/${user_github}) and check my other repositories.
+
+  Or you can send me an [email](${user_email}) instead.
   `;
 
 
