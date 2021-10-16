@@ -54,10 +54,10 @@ const promptUser = () => {
 
   const createMarkdown = ({ user_github, user_email, title, description, license, contributing, tests, installation, usage}) =>
   `
-  # ${title}
+  # ✨${title}
   [![license](https://img.shields.io/static/v1?label=license&message=${license}&color=red)](https://choosealicense.com/licenses/${license})
 
-  ## ✨Description
+  ## Description
   ${description}
 
   ## Table of Contents
@@ -68,17 +68,17 @@ const promptUser = () => {
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ## ✨Installation
+  ## Installation
   ${installation}
 
   <p align="right">(<a href="#top">back to top</a>)</p>
 
-  ## ✨Usage
+  ## Usage
   ${usage}
 
   <p align="right">(<a href="#top">back to top</a>)</p>
 
-  ## ✨License
+  ## License
 
   Copyright (c) Microsoft Corporation. All rights reserved.
 
@@ -86,17 +86,17 @@ const promptUser = () => {
 
   <p align="right">(<a href="#top">back to top</a>)</p>
   
-  ## ✨Contributing
+  ## Contributing
   ${contributing}
   
   <p align="right">(<a href="#top">back to top</a>)</p>
 
-  ## ✨Tests
+  ## Tests
   ${tests}
 
   <p align="right">(<a href="#top">back to top</a>)</p>
   
-  ## ✨Questions
+  ## Questions
   
   Visit my [GitHub profile](https://github.com/${user_github}) for more information about me and my other repositories.
 
