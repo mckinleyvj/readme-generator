@@ -90,7 +90,8 @@ const promptUser = () => {
   
   You can visit my [GitHub profile](https://github.com/${user_github}) and check my other repositories.
 
-  Or you can send me an [email](<${user_email}>) instead.
+  Or you can send me an <a href="mailto:${user_email}?">email</a>. 
+  
   `;
 
 
