@@ -26,7 +26,7 @@ const promptUser = () => {
           {
             type: 'list',
             message: 'Type of license used :',
-            choices: ['MIT', 'Apache-2.0', 'GPL-3', 'BSD-3', 'None'],
+            choices: ['MIT', 'APACHE-2.0', 'GPL-3.0', 'MPL-2.0', 'BSL-1.0', 'AGPL-3.0','None'],
             name: 'license',
           },
           {
@@ -55,7 +55,7 @@ const promptUser = () => {
   const createMarkdown = ({ user_github, user_email, title, description, license, contributing, tests, installation, usage}) =>
   `
   # ${title}
-  [![license](https://img.shields.io/static/v1?label=license&message=${license}&color=red)](#license)
+  [![license](https://img.shields.io/static/v1?label=license&message=${license}&color=red)](https://choosealicense.com/licenses/${license})
 
   ## ✨Description
   ${description}
@@ -78,7 +78,7 @@ const promptUser = () => {
 
   Copyright (c) Microsoft Corporation. All rights reserved.
 
-  Licensed under the [${license}](LICENSE) license.
+  Licensed under the [${license}] license.
   
   ## ✨Contributing
   ${contributing}
