@@ -71,26 +71,38 @@ const promptUser = () => {
   ## ✨Installation
   ${installation}
 
+  <p align="right">(<a href="#top">back to top</a>)</p>
+
   ## ✨Usage
   ${usage}
-  
+
+  <p align="right">(<a href="#top">back to top</a>)</p>
+
   ## ✨License
 
   Copyright (c) Microsoft Corporation. All rights reserved.
 
-  Licensed under the [${license}] license.
+  Licensed under the [${license}](LICENSE) license.
+
+  <p align="right">(<a href="#top">back to top</a>)</p>
   
   ## ✨Contributing
   ${contributing}
   
+  <p align="right">(<a href="#top">back to top</a>)</p>
+
   ## ✨Tests
   ${tests}
+
+  <p align="right">(<a href="#top">back to top</a>)</p>
   
   ## ✨Questions
   
   Visit my [GitHub profile](https://github.com/${user_github}) for more information about me and my other repositories.
 
   You can also send me an <a href="mailto:${user_email}?">email</a> to know more information.
+
+  <p align="right">(<a href="#top">back to top</a>)</p>
   
   `;
 
