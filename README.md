@@ -1,11 +1,11 @@
 
   # Readme Generator
-  [![license](https://img.shields.io/static/v1?label=license&message=MIT&color=red)](#license)
+  [![license](https://img.shields.io/static/v1?label=license&message=Apache-2.0&color=red)](#license)
 
-  ## Description
-  When we create an open source project, it's always a good practice to create a high-quality <kbd>README</kbd> file that will help developers understand the concept of why the project is made, how to install it, how to use it, how to report issues and how to make contributions that will highly likely gear the project towards success.
+  ## ✨Description
+  When we create an open source project or repository, it's always a good practice to create a high-quality <kbd>README</kbd> file that will help developers understand the concept of the purpose of the project, installation steps, usage, how to report issues and how other developers could contribute towards the success of the project.
 
-With the use of a command-line application, it will prompt the user a series of questions resulting to the creation of a well documented <kbd>README</kbd> file that can be used for their projects.
+This project uses a command-line application, it will prompt the user a series of questions resulting to the creation of a well documented <kbd>README</kbd> file that can be used for their projects/repositories.
 
   ## Table of Contents
   - [Installation](#installation)
@@ -15,32 +15,56 @@ With the use of a command-line application, it will prompt the user a series of 
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ## Installation
-  -   Make sure that [Node](https://nodejs.org/en/) is installed on your computer. This comes together when you install [Visual Studio Code](https://code.visualstudio.com/)
--   Make sure to have the [Inquirer package](https://www.npmjs.com/package/inquirer) installed in your repository.
+  ## ✨Installation
+  Lets check if the following packages are installed.
 
-  ## Usage
-  The application will make the user respond to a series of prompts.
+1. <kbd>npm</kbd> package
+
+```bash
+npm -v || npm -version
+```
+
+2. <kbd>node</kbd> package. Use the latest version or a version higher than 14.0.0
+
+```bash
+npm install n -g || npm install v16.0.0 (Specific version)
+```
+
+3. <kbd>inquirer</kbd> package. This will provide ease to the process of prompting questions, parsing answers and validating answers.
+
+```bash
+npm install inquirer
+```
+
+  ## ✨Usage
+  -   User will have to invoke the following command to run the application.
+
+```bash
+node index.js
+```
+
+![Invoking the command](./assets/images/S1-Invoking.png)
   
-  ## License
+  ## ✨License
 
   Copyright (c) Microsoft Corporation. All rights reserved.
 
-  Licensed under the [MIT](LICENSE) license.
+  Licensed under the [Apache-2.0](LICENSE) license.
   
-  ## Contributing
-  I am always looking for contributors of all skill levels! If you have something in mind to add to the project, try out by [creating an issue](https://github.com/mckinleyvj/readme-generator) and let's see where we can go from there.
+  ## ✨Contributing
+  I am always looking for contributors of all skill levels! If you have something in mind to add to the project, try out by [creating an issue](https://github.com/mckinleyvj/readme-generator/issues) and let's see where we can go from there.
   
-  ## Tests
-  ```
+  ## ✨Tests
+  ```md
 -   Run npm install inquirer.
 -   Run node index.js
 -   Answer series of prompts and this will generate the README file.
 ```
   
-  ## Questions
+  ## ✨Questions
   
-  You can visit my [GitHub profile](https://github.com/mckinleyvj) and check my other repositories.
+  Visit my [GitHub profile](https://github.com/mckinleyvj) for more information about me and my other repositories.
 
-  Or you can send me an [email](<mckinleyvj@gmail.com>) instead.
+  You can also send me an <a href="mailto:mckinleyvj@gmail.com?">email</a> to know more information.
+  
   
