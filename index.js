@@ -26,7 +26,7 @@ const promptUser = () => {
           {
             type: 'list',
             message: 'Type of license used :',
-            choices: ['MIT', 'APACHE-2.0', 'GPL-3.0', 'MPL-2.0', 'BSL-1.0', 'AGPL-3.0','None'],
+            choices: ['mit', 'apache-2.0', 'gpl-3.0', 'mpl-2.0', 'bsl-1.0', 'agpl-3.0','None'],
             name: 'license',
           },
           {

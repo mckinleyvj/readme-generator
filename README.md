@@ -1,6 +1,6 @@
 
   # Readme Generator
-  [![license](https://img.shields.io/static/v1?label=license&message=Apache-2.0&color=red)](#license)
+  [![license](https://img.shields.io/static/v1?label=license&message=GPL-3.0&color=red)](https://choosealicense.com/licenses/GPL-3.0)
 
   ## ✨Description
   When we create an open source project or repository, it's always a good practice to create a high-quality <kbd>README</kbd> file that will help developers understand the concept of the purpose of the project, installation steps, usage, how to report issues and how other developers could contribute towards the success of the project.
@@ -44,15 +44,21 @@ node index.js
 ```
 
 ![Invoking the command](./assets/images/S1-Invoking.png)
+
+![Entering Details to Editor](./assets/images/S2-Editor.png)
+
+![License Selection](./assets/images/S3-License.png)
   
   ## ✨License
 
   Copyright (c) Microsoft Corporation. All rights reserved.
 
-  Licensed under the [Apache-2.0](LICENSE) license.
+  Licensed under the [GPL-3.0] license.
   
   ## ✨Contributing
-  I am always looking for contributors of all skill levels! If you have something in mind to add to the project, try out by [creating an issue](https://github.com/mckinleyvj/readme-generator/issues) and let's see where we can go from there.
+  ```md
+I am always looking for contributors of all skill levels! If you have something in mind to add to the project, try out by [creating an issue](https://github.com/mckinleyvj/readme-generator/issues) and let's see where we can go from there.
+```
   
   ## ✨Tests
   ```md
