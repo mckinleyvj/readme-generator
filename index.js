@@ -57,7 +57,7 @@ const promptUser = () => {
   # ${title}
   [![license](https://img.shields.io/static/v1?label=license&message=${license}&color=red)](#license)
 
-  ## Description
+  ## ✨Description
   ${description}
 
   ## Table of Contents
@@ -68,29 +68,29 @@ const promptUser = () => {
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ## Installation
+  ## ✨Installation
   ${installation}
 
-  ## Usage
+  ## ✨Usage
   ${usage}
   
-  ## License
+  ## ✨License
 
   Copyright (c) Microsoft Corporation. All rights reserved.
 
   Licensed under the [${license}](LICENSE) license.
   
-  ## Contributing
+  ## ✨Contributing
   ${contributing}
   
-  ## Tests
+  ## ✨Tests
   ${tests}
   
-  ## Questions
+  ## ✨Questions
   
-  You can visit my [GitHub profile](https://github.com/${user_github}) and check my other repositories.
+  Visit my [GitHub profile](https://github.com/${user_github}) for more information about me and my other repositories.
 
-  Or you can send me an <a href="mailto:${user_email}?">email</a>. 
+  You can also send me an <a href="mailto:${user_email}?">email</a> to know more information.
   
   `;
 
